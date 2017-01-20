@@ -12,6 +12,8 @@
 		192FA9840000033F00809975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192FA9820000033F00809975 /* Main.storyboard */; };
 		192FA9860000033F00809975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192FA9850000033F00809975 /* Assets.xcassets */; };
 		192FA9890000033F00809975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192FA9870000033F00809975 /* LaunchScreen.storyboard */; };
+		192FA9920000043900809975 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192FA9910000043900809975 /* MainNavigationController.swift */; };
+		19EFF5F81E32898F00FB4F1B /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EFF5F71E32898F00FB4F1B /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		192FA9850000033F00809975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		192FA9880000033F00809975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		192FA98A0000033F00809975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		192FA9910000043900809975 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainNavigationController.swift; path = controllers/MainNavigationController.swift; sourceTree = "<group>"; };
+		19EFF5F71E32898F00FB4F1B /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTabBarController.swift; path = controllers/MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		192FA97D0000033F00809975 /* Sof */ = {
 			isa = PBXGroup;
 			children = (
+				192FA9900000035800809975 /* controllers */,
 				192FA97E0000033F00809975 /* AppDelegate.swift */,
 				192FA9800000033F00809975 /* ViewController.swift */,
 				192FA9820000033F00809975 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				192FA98A0000033F00809975 /* Info.plist */,
 			);
 			path = Sof;
+			sourceTree = "<group>";
+		};
+		192FA9900000035800809975 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				192FA9910000043900809975 /* MainNavigationController.swift */,
+				19EFF5F71E32898F00FB4F1B /* MainTabBarController.swift */,
+			);
+			name = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				192FA9920000043900809975 /* MainNavigationController.swift in Sources */,
 				192FA9810000033F00809975 /* ViewController.swift in Sources */,
+				19EFF5F81E32898F00FB4F1B /* MainTabBarController.swift in Sources */,
 				192FA97F0000033F00809975 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +315,7 @@
 				192FA98F0000034000809975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
